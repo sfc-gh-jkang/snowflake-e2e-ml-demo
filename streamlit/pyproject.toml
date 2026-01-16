@@ -1,0 +1,12 @@
+[project]
+name = "churn-dashboard"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "streamlit>=1.51.0",
+    "snowflake-snowpark-python[pandas]>=1.37.0",
+    "snowflake-ml-python>=1.8.0",
+    "pandas>=2.3.0",
+    "altair>=5.5.0",
+    "numba>=0.57.0",
+]

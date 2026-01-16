@@ -1,0 +1,19 @@
+[project]
+name = "snowflake-e2e-ml-demo"
+version = "0.1.0"
+description = "End-to-End ML Demo with Snowflake"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "pandas>=2.3.3",
+    "numpy>=2.3.0,<2.4",
+    "faker>=40.1.0",
+    "streamlit>=1.52.2",
+    "plotly>=6.5.1",
+    "shap>=0.50.0",
+    "scikit-learn>=1.4,<1.8",
+    "playwright>=1.57.0",
+    "snowflake-snowpark-python[pandas]>=1.44.0",
+    "snowflake-ml-python>=1.22.0",
+    "python-dotenv>=1.0.0",
+]
